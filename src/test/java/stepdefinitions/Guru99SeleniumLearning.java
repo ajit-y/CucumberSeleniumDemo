@@ -24,12 +24,15 @@ public class Guru99SeleniumLearning {
     }
 
     @Test
-    public void locatorByCssSelector(){
+    public void locatorByCssSelector() throws InterruptedException {
         seleniumUtilities.openWebPageinChrome(driver,"http://newtours.demoaut.com");
         driver.findElement(By.name("userName")).sendKeys("tutorial");
         driver.findElement(By.name("password")).sendKeys("tutorial");
         driver.findElement(By.name("login")).click();
         driver.findElement(By.cssSelector("input[value=oneway]")).click();
+        Thread thread = null;
+        thread.sleep(1000);
+        seleniumUtilities.quitWebdriver();
     }
 
 

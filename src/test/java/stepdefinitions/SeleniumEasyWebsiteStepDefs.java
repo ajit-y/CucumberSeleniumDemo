@@ -33,4 +33,29 @@ public class SeleniumEasyWebsiteStepDefs {
 
     }
 
+
+    @Given("^Simple Form Demo page is open$")
+    public void simple_Form_Demo_page_is_open() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^User enters message in Single Input field$")
+    public void user_enters_message_in_Single_Input_field() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^User clicks Show Message button$")
+    public void user_clicks_Show_Message_button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^Entered message is displayed in front of Your Message text$")
+    public void entered_message_is_displayed_in_front_of_Your_Message_text() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
 }
