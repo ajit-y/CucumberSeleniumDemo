@@ -16,7 +16,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "seleniumeasy.com demo home page is open",
+  "name": "Page with url \"http://www.seleniumeasy.com/test/\" is open",
   "keyword": "Given "
 });
 formatter.step({
@@ -30,76 +30,178 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SeleniumEasyWebsiteStepDefs.seleniumeasy_com_demo_home_page_is_open()"
+  "arguments": [
+    {
+      "val": "http://www.seleniumeasy.com/test/",
+      "offset": 15
+    }
+  ],
+  "location": "SeleniumEasyWebsiteStepDefs.pageWithUrlIsOpen(String)"
 });
 formatter.result({
-  "duration": 4978606973,
+  "duration": 6619775589,
   "status": "passed"
 });
 formatter.match({
   "location": "SeleniumEasyWebsiteStepDefs.user_clicks_on_Start_Practising_button()"
 });
 formatter.result({
-  "duration": 752182058,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"btn_basic_example\"}\n  (Session info: chrome\u003d67.0.3396.99)\n  (Driver info: chromedriver\u003d2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform\u003dMac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027Steel\u0027, ip: \u00272a02:c7f:4869:400:90f2:38b1:a37:624e\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.3\u0027, java.version: \u00271.8.0_66\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/py/096pt7893tj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}\nSession ID: d290a426a2dbbf53bd55823030694a31\n*** Element info: {Using\u003did, value\u003dbtn_basic_example}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat stepdefinitions.SeleniumEasyWebsiteStepDefs.user_clicks_on_Start_Practising_button(SeleniumEasyWebsiteStepDefs.java:25)\n\tat ✽.When user clicks on Start Practising button(SeleniumEasyWebsiteTests.feature:5)\n",
-  "status": "failed"
+  "duration": 72304901,
+  "status": "passed"
 });
 formatter.match({
   "location": "SeleniumEasyWebsiteStepDefs.basic_Examples_tab_is_opened_in_the_frame()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.uri("featurefile.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Test Feature",
-  "description": "",
-  "id": "test-feature",
-  "keyword": "Feature"
+  "duration": 26511,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Test Scenario",
+  "line": 8,
+  "name": "Test Single Input field on Simple Form demo page",
   "description": "",
-  "id": "test-feature;test-scenario",
+  "id": "selenium-automation-practice-tests-for-seleniumeasy.com;test-single-input-field-on-simple-form-demo-page",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 4,
-  "name": "type given",
+  "line": 9,
+  "name": "Page with url \"https://www.seleniumeasy.com/test/basic-first-form-demo.html\" is open",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
-  "name": "type when",
+  "line": 10,
+  "name": "User enters message in Single Input field",
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
-  "name": "type then",
+  "line": 11,
+  "name": "User clicks Show Message button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Entered message is displayed in front of Your Message text",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinitions.type_given()"
+  "arguments": [
+    {
+      "val": "https://www.seleniumeasy.com/test/basic-first-form-demo.html",
+      "offset": 15
+    }
+  ],
+  "location": "SeleniumEasyWebsiteStepDefs.pageWithUrlIsOpen(String)"
 });
 formatter.result({
-  "duration": 233157,
+  "duration": 3376350666,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinitions.type_when()"
+  "location": "SeleniumEasyWebsiteStepDefs.user_enters_message_in_Single_Input_field()"
 });
 formatter.result({
-  "duration": 37119,
+  "duration": 154596530,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinitions.typeThen()"
+  "location": "SeleniumEasyWebsiteStepDefs.user_clicks_Show_Message_button()"
 });
 formatter.result({
-  "duration": 32177,
+  "duration": 79508335,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.entered_message_is_displayed_in_front_of_Your_Message_text()"
+});
+formatter.result({
+  "duration": 31369870,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Test Multiple Checkbox Form demo page",
+  "description": "",
+  "id": "selenium-automation-practice-tests-for-seleniumeasy.com;test-multiple-checkbox-form-demo-page",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 15,
+  "name": "Page with url \"https://www.seleniumeasy.com/test/basic-checkbox-demo.html\" is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 16,
+  "name": "User Click on \u0027Check All\u0027",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "all checkboxes are selected at once",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "Button will change to \u0027Uncheck All\u0027",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "When user uncheck at least one checkbox",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "Button will change to \u0027Check All\u0027",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.seleniumeasy.com/test/basic-checkbox-demo.html",
+      "offset": 15
+    }
+  ],
+  "location": "SeleniumEasyWebsiteStepDefs.pageWithUrlIsOpen(String)"
+});
+formatter.result({
+  "duration": 3433116948,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.user_Click_on_Check_All()"
+});
+formatter.result({
+  "duration": 30118,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.all_checkboxes_are_selected_at_once()"
+});
+formatter.result({
+  "duration": 17259,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.button_will_change_to_Uncheck_All()"
+});
+formatter.result({
+  "duration": 15589,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.when_user_uncheck_at_least_one_checkbox()"
+});
+formatter.result({
+  "duration": 17102,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SeleniumEasyWebsiteStepDefs.button_will_change_to_Check_All()"
+});
+formatter.result({
+  "duration": 14659,
   "status": "passed"
 });
 });

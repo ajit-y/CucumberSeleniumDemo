@@ -1,6 +1,5 @@
 package stepdefinitions;
 
-import com.sun.tools.internal.xjc.reader.xmlschema.BindYellow;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -32,7 +31,7 @@ public class Guru99SeleniumLearning {
         driver.findElement(By.cssSelector("input[value=oneway]")).click();
         Thread thread = null;
         thread.sleep(1000);
-        seleniumUtilities.quitWebdriver();
+        seleniumUtilities.quitWebdriver(driver);
     }
 
 

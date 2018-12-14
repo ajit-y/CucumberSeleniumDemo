@@ -19,3 +19,15 @@ Feature: Selenium Automation Practice Tests for SeleniumEasy.com
     When When user uncheck at least one checkbox
     Then Button will change to 'Check All'
 
+  Scenario: Date Picker - Bootstrap date picker - Date Example
+    Given Page with url "https://www.seleniumeasy.com/test/bootstrap-date-picker-demo.html" is open
+    When User clicks icon for calendar
+    Then Calendar window is displayed
+    And Calendar - Future dates are disabled
+    And Calendar - Days Of Week Disabled- Sunday
+    And Calendar - Week Starts from Monday
+    When User Click on 'Today'
+    Then Calendar - select Current date
+    When User Click on Clear button
+    Then Calendar - clear the date entered
+

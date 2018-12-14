@@ -17,6 +17,7 @@ public class SeleniumEasyPageObjects {
     public String multipleCheckboxDemoCheckboxOption3 = "";
     public String multipleCheckboxDemoCheckboxOption4 = "";
     public String multipleCheckboxDemoCheckAllButton = "";
-
+    public String bootstrapDatePickerDemoDateexampleSelectDate = ".glyphicon-th";
+    public String bootstrapDatePickerDemoDateexampleCalendarOpen = ".datepicker-days .datepicker-switch";
 
 }

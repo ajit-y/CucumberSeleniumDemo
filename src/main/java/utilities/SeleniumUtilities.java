@@ -7,19 +7,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumUtilities {
 
-    private WebDriver driver;
-
-
     public WebDriver setupChromeDriver() {
         ChromeDriverManager.getInstance().setup();
-        driver = new ChromeDriver();
-        return driver;
+        return new ChromeDriver();
     }
 
-    public void quitWebdriver() {
-        if (driver != null) {
+    public void quitWebdriver(WebDriver driver) {
             driver.quit();
-        }
     }
 
     public void openWebPageinChrome(WebDriver driver, String url) {
